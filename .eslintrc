@@ -11,5 +11,13 @@
   "rules": {
     "no-use-before-define": 0,
     "no-underscore-dangle": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extentions": ["js", "ts", "json"]
+      }
+    }
   }
 }
